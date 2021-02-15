@@ -31,6 +31,7 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  background-repeat: no-repeat;
   background-image: url("../images/pigeon-background.JPEG");
   background-color: #dddddd;
   /*Req 1*/
@@ -77,7 +78,7 @@ td{
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
-  background-color: #7e0820;
+  background-color: rgb(126, 8, 32);
   
 }
 /*Req 6c*/
@@ -98,7 +99,7 @@ tr:nth-child(even){
 }
 /*Req 6f*/
 tr:hover {
-  background-color:rgba(125, 8, 31, 0.25);
+  background-color:rgba(126, 8, 32, 0.25);
 }
 
 
@@ -123,5 +124,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
